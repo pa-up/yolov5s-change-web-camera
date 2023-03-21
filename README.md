@@ -1,7 +1,7 @@
 # yolov5s-change-web-camera
 yolov5sモデルを用いて、WEBカメラの映像を物体検出、加工するWEBアプリ
 
-<h1>アプリの使い方</h1>
+<h2>アプリの使い方</h2>
 起動URL：
 https://pa-up-yolov5s-change-web-camera-app-3l1d6n.streamlit.app/
 
@@ -16,5 +16,5 @@ WEBアプリにアクセスすると、
 入力後、映像を表示するボタンを押すと、WEBカメラが起動して上記の加工オプションで処理された映像が表示されます。
 
 
-<h1>ソースコード・環境</h1>
+<h2>ソースコード・環境</h2>
 本WEBアプリの物体の検出は、ONNX変換したPytorchの学習済みYolov5sモデルにより推論を行なっています。また、アプリのフレームワークはStreamlitを用いており、Stream Cloudにデプロイしております。
