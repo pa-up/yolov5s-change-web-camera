@@ -3,6 +3,7 @@ yolov5sモデルを用いて、WEBカメラの映像を物体検出、加工す�
 
 <h2>アプリの使い方</h2>
 起動URL：
+<br>
 https://pa-up-yolov5s-change-web-camera-app-3l1d6n.streamlit.app/
 <br>
 <br>
