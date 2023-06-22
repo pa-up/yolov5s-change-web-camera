@@ -6,9 +6,20 @@ import convert_img
 import cv2
 import numpy as np
 import torch
+import yolov5
+from yolov5.models import YOLOv5
 
 st.title("Pytorchのバージョン")
 st.write(torch.__version__)
+st.write(yolov5.__version__)
+
+# ウェイトファイルのパス
+weights_path = 'yolov5s.pth'
+
+# モデルの読み込み
+model = YOLOv5(weights=weights_path)
+model.eval()
+
 
 st.title("カメラ映像を加工するサイト")
 st.write("<p></p>", unsafe_allow_html=True)
