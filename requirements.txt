@@ -2,3 +2,5 @@ opencv-python-headless==4.7.0.72
 streamlit
 streamlit-webrtc
 av
+torch==1.9.0+cpu
+torchvision
