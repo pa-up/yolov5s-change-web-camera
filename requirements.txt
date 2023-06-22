@@ -4,4 +4,4 @@ streamlit-webrtc
 av
 torch
 torchvision
-yolov5
+yolov5-tf
