@@ -5,6 +5,7 @@ import forms
 import convert_img
 import cv2
 import numpy as np
+import torch
 
 
 st.title("カメラ映像を加工するサイト")
