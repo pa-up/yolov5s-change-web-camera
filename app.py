@@ -7,6 +7,8 @@ import cv2
 import numpy as np
 import torch
 
+st.title("Pytorchのバージョン")
+st.write(torch.__version__)
 
 st.title("カメラ映像を加工するサイト")
 st.write("<p></p>", unsafe_allow_html=True)
